@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.responsediv {
+    overflow-y: scroll;
+    max-height: 420px;
+    width: 85%;
+    padding: 2rem 0 0rem 0rem;
+   
+
+}
+
+.responsediv::-webkit-scrollbar {
+    display: none;
+}
